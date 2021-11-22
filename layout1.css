@@ -1,0 +1,133 @@
+/*Div1*/
+
+body {
+    margin: 0;
+}
+
+.div1 {
+    padding: 50px;
+    background-color: greenyellow;
+    font-size: 0;
+}
+
+.div1_1 {
+    padding: 50px;
+    background-color: rgba(0, 255, 234, 0.5);
+    display: inline-block;
+}
+
+.div1_2 {
+    padding: 50px;
+    background-color: rgba(0, 204, 255, 0.5);
+    display: inline-block;
+}
+
+.div1_3 {
+    padding: 50px;
+    background-color: rgba(0, 102, 255, 0.5);
+    display: inline-block;
+}
+
+/*Div2*/
+
+.div2 {
+    padding-left: 50px;
+    background-color: royalblue;
+}
+
+.clearfix::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+a {
+    display: block;
+    padding: 40px 50px;
+}
+
+.div2_1 {
+    background-color: rgba(238, 255, 0, 0.5);
+    float: left;
+}
+
+.div2_2 {
+    background-color: rgba(255, 123, 0, 0.5);
+    float: left;
+}
+
+.div2_3 {
+    background-color: rgba(255, 38, 0, 0.5);
+    float: left;
+}
+
+/*Div3*/
+
+.div3 {
+    padding: 50px;
+    background-color: yellow;
+    position: relative;
+    height: 200px;
+}
+
+.div3_1 {
+    padding: 50px 25px;
+    background-color: rgba(195, 0, 255, 0.5);
+    width: 50px;
+    margin: auto;
+}
+
+.div3_2 {
+    padding: 50px;
+    background-color: rgba(98, 0, 255, 0.5);
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+.div3_3 {
+    padding: 50px;
+    background-color: rgba(47, 0, 255, 0.5);
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/*Div4*/
+
+.div4 {
+    padding: 50px;
+    background-color: white(255, 47, 47);
+}
+
+.div4_1 {
+    padding: 50px;
+    background-color: rgba(9, 255, 0, 0.5);
+    display: inline-block;
+    line-height: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.div4_1 p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.div4_2 {
+    padding: 100px 50px;
+    background-color: rgba(200, 255, 0, 0.5);
+    display: inline-block;
+}
+
+.div4_3 {
+    padding: 50px;
+    background-color: rgba(255, 230, 0, 0.5);
+    display: flex;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}

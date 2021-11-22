@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Origem</title>
+    <link rel="stylesheet" href="minireset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+    <link rel="stylesheet" href="origem4.css">
+</head>
+
+<body>
+
+    <div class="body">
+        <div class="space-adjacent clearfix">
+
+            <!--Formulário-->
+            <form method="post" autocomplete="on" class="space" oninput="x.value=parseInt(a.value)">
+                <h2 class="red-marker">Preencha esse formulário e ganhe um iPhone 10<sup>16</sup>xs Pro:</h2>
+
+                <fieldset class="space no-overflow">
+                    <legend>Dados Pessoais</legend>
+
+                    <!--Informe seu nome-->
+                    <div class="little-space">
+                        <label for="in-name">
+                            <h3 class="little-space">Nome do felizardo:</h3>
+                        </label>
+                        <input type="text" id="in-name" class="base-input w100" name="in-name" placeholder="Jão"
+                            required><br>
+                    </div>
+
+                    <!--Informe seu sexo-->
+                    <div class="space">
+                        <h3 class="little-space">Sexo:</h3>
+                        <input type="radio" id="nosex" name="select-sexo" value="">
+                        <label for="nosex">Não mencionar</label><br>
+                        <input type="radio" id="masc" name="select-sexo" value="masc">
+                        <label for="masc">Masculino</label><br>
+                        <input type="radio" id="femi" name="select-sexo" value="femi">
+                        <label for="femi">Feminino</label><br>
+                        <input type="radio" id="gost" name="select-sexo" value="gost">
+                        <label for="gost">Gosto</label><br>
+                    </div>
+
+                    <!--Informe os seus celulares já usados-->
+                    <div class="space">
+                        <h3 class="little-space">Quais destes celulares você já teve:</h3>
+                        <input type="checkbox" id="celular1" name="celular1" value="samsungcell">
+                        <label for="celular1">samsung</label><br>
+                        <input type="checkbox" id="celular2" name="celular2" value="iphonecell">
+                        <label for="celular2">iphone</label><br>
+                        <input type="checkbox" id="celular3" name="celular3" value="chinacell">
+                        <label for="celular3">celular barato da china</label><br>
+                        <input type="checkbox" id="celular4" name="celular4" value="nokiacell">
+                        <label for="celular4">nokia tijolão (ainda com bateria)</label><br>
+                    </div>
+
+                    <!--Informe sua ocupação-->
+                    <div class="space">
+                        <label for="job">
+                            <h3 class="little-space">Qual a sua principal ocupação atualmente?</h3>
+                        </label>
+                        <select id="job" class="base-input w100" name="job" required>
+                            <option value="job-trab">Trabalhador</option>
+                            <option value="job-estu">Estudante</option>
+                            <option value="job-empr">Empresário</option>
+                            <option value="job-preg">Preguiçoso</option>
+                        </select>
+                    </div>
+
+                    <!--Informe seu navegador de internet-->
+                    <div class="space">
+                        <h3 class="little-space">Qual navegador você está usando?</h3>
+                        <input list="browser" class="base-input w100" required>
+                        <datalist id="browser">
+                            <option value="Edge">
+                            <option value="Opera">
+                            <option value="Chrome">
+                            <option value="Firefox">
+                            <option value="Thor">
+                        </datalist>
+                    </div>
+
+                    <!--Informe a sua vontade de ter esse celular-->
+                    <div class="space">
+                        <h3 class="little-space">Em uma escala de 0 a 100 quanto você quer esse celular?</h3>
+                        <input type="range" id="will-power" name="a" value="0">
+                        <output class="space-left" name="x">0</output>
+                    </div>
+
+                    <!--Informe a senho do seu vizinho-->
+                    <div class="space">
+                        <label for="wifi-pwd">
+                            <h3 class="little-space">Senha do wifi do vizinho:</h3>
+                        </label>
+                        <input type="password" id="wifi-pwd" class="base-input w100" name="wifi-pwd" required>
+                    </div>
+
+                    <!--Informe a cor-->
+                    <div class="space">
+                        <label for="green-color">
+                            <h3 class="little-space">Selecione a cor verde limão:</h3>
+                        </label>
+                        <input type="color" id="green-color" name="green-color">
+                    </div>
+
+                    <!--Informe sua data de nascimento-->
+                    <div class="space">
+                        <label for="birthday">
+                            <h3 class="little-space">Primeira vez que você nasceu na vida:</h3>
+                        </label>
+                        <input type="date" id="birthday" class="base-input" name="birthday" min="1900-02-05" required>
+                    </div>
+
+                </fieldset>
+
+                <!--Reclamações-->
+                <div class="space">
+                    <h3 class="little-space red-marker">Reclamações? Reclame com o cleiton:</h3>
+                    <textarea name="complaints" class="base-input" rows="35" cols="99">
+/////////////////////////...../.....................................................................
+///////////////////////////..../....................................................................
+////////////////////////......//..#.(/.//./(#.(////(//(.//..........................................
+/////////////////////////.....//..(/(OUVIDORIA/(..//.#//.#..........................................
+/////////////////////////......///////////////////..................................................
+/////////////////////////...........................................................................
+////////////////////////////.................................................................///////
+////////////////////////////.....................................................................///
+////////////////////////////........................................................................
+////////////////////////////........................................................................
+////////////////////////.///........................................................................
+/////////////////////..../..........................................................................
+////////////////./..................................................................................
+//////////////////.................-----~~~~======++++++++(/#))+=...................................
+///////.................................................(&&@@&&...\.................................
+///////................................................@@%&&&&#.....\...............................
+....................................................(%%%%&&&&&(.......\.............................
+.................................................../#%&@@@&&&&%/.......\........................,...
+.....................................///////////////%&@@@@@@&#(.........\...............,.......,...
+...................../################################%%%%%%#####(((((((/\(((///(.,.................
+...................//#(################(///(////(((((((#################(#|((##((((.................
+...............//./(###################../""\.|""..O..""|""./""\..|\...|.#\#####(((((...............
+...........///////(####################.|.....|__..|....|..|....|.|.\..|.##|########((..............
+.........////////(#####################.|.....|....|....|..|....|.|..\.|.##|########((((............
+......//////////(######################..\__/.|__..|....|...\__/..|...\|.##############((/..........
+....///////////(############################################################(#########(((((.........
+../////////////################################################((#(######(###((((((##(###(###.......
+////////////////(((((((####%%%%%%%%%%%#%%%%%%%%%%%%%%%%%%%%%%%&&&%%%%%%%%%%%#((/////////............
+////////////////((((((((##%%&%%%&&&&&@&&&&&&&&%&&&%%%&%%%&&&&&&@&@%%%%%%%%%%#(((///////////.........
+///////////////(((((((((##%%%%&&&&&&&&&%%%%%%%%%%%%%%%%%%%%%%&&&&&&%########(((((///////////........
+///////////////((((((((((########%%%%%&%%%##################%%%%%&&%#((((((((((///////////////......
+////////////////////((((((((((((((###%&%##((((((((((((((((((((((((##((((((((///////////////////.....
+////////////////////////////((((((((((((((((((((((((((((((((((((((((((////////////////////////......
+/////////////////////////////////(((((((((((((((((////((((((//////////////////////////////////......
+                        </textarea>
+                </div>
+
+                <input type="submit" value="Pronto"><br>
+        </div>
+        </form>
+
+    </div>
+    </div>
+
+    <!--Rodapé-->
+    <footer>
+        <div>
+            <p>&copy; 2021 Forge Gabriel</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

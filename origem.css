@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Varela+Round&display=swap');
+body {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 100%;
+    background-image: url('imagens/GVpto7z.gif');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+p {
+    margin: .5em 0;
+}
+
+i, em {
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1.5em 0em .5em 0;
+}
+
+address {
+    font-style: italic;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*corpo*/
+
+.corpo {
+    max-width: 1024px;
+    min-height: 700px;
+    margin: 150px auto 50px;
+    background-color: white;
+}
+
+.corpo-dentro {
+    margin: 0;
+    padding: 0 50px;
+}
+
+/*Menus*/
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    list-style-type: none;
+    font-size: 0;
+}
+
+.menu>ul>li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 0px;
+    margin: 0px;
+    border-right: 1px solid #666;
+}
+
+.menu>ul>li:hover {
+    background-color: #111;
+}
+
+.menu li a {
+    padding: 11px 16px;
+    margin: 0 -1px;
+    color: #ddd;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown:hover .drop-content {
+    display: block;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    top: 44px;
+    min-width: 120px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.drop-content li a {
+    display: block;
+    color: black;
+}
+
+.drop-content li:hover {
+    background-color: #ccc;
+}
+
+/* Topo da página */
+
+#topo h1 {
+    font-weight: 900;
+    color: #585048;
+    padding: 2em 0;
+    margin: 0;
+}
+
+/*Lorem Ipsum*/
+
+#lorem h3 {
+    border-left: 5px solid #822116;
+    padding: 10px;
+    padding-right: 0;
+}
+
+#lorem p {
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+#lorem p:first-child::first-letter {
+    font-size: 1.8em;
+    padding: 0 6px;
+    margin-right: 2px;
+    color: white;
+    background-color: #822116;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#lorem div {
+    background-color: #d1ccc7;
+    border: 5px double #001820;
+    padding: 10px 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*Vídeo do Rick*/
+
+#video-rick {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+#video-rick h3 {
+    border-left: 5px solid #822116;
+    padding: 10px;
+    padding-right: 0;
+}
+
+/*imagen typhlosion*/
+
+#imagem-typhlo {
+    display: inline-block;
+    margin: 10px;
+}
+
+.div-typhlo figure {
+    display: inline-block;
+    max-width: 320px;
+}
+
+.div-typhlo {
+    margin: 3em 0;
+    display: block;
+}
+
+.typhlo-lado {
+    display: inline-block;
+    max-width: 600px;
+    margin: 15px 0;
+    vertical-align: top;
+}
+
+.typhlo-lado h2 {
+    color: #822116;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: .5em;
+    border-left: 5px solid #822116;
+    padding: 10px;
+    padding-right: 0;
+}
+
+/*E que comecem as divs*/
+
+.div-demo {
+    background-color: #585048;
+    border: 0.5em dashed #001820;
+    padding: 1em;
+    outline: 7px dashed #332F2A;
+    outline-offset: 7px;
+    margin: 10px -20px;
+}
+
+.div-demo h3 {
+    background-color: #332F2A;
+    margin: 1em 0;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+/*fórmula de bhaskara*/
+
+.bhaskara {
+    display: inline-block;
+}
+
+.bhaskara-t {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*Detalhes texto*/
+
+::selection {
+    color: yellow;
+    background-color: rgb(70, 70, 70);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+
+.overline {
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+.spfc {
+    display: inline-block;
+}
+
+.spfc+span {
+    display: none;
+    position: absolute;
+}
+
+.spfc:hover+span {
+    display: block;
+    border-radius: 5px;
+    padding: 1px 10px;
+    background-color: rgb(219, 219, 219);
+}
+
+.invertido {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.glow p {
+    font-size: 4em;
+    font-weight: 400;
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 1px #fff, 0 0 4px #f00, 0 0 6px #f00, 0 0 8px #f00, 0 0 8px #f00, 0 0 10px #f00, 0 0 12px #f00;
+}
+
+/*Colunas*/
+
+.coluna-lado {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+}
+
+/*tabelas*/
+
+#tabelas table {
+    border-spacing: 2px;
+}
+
+#tabelas td, #tabelas th {
+    padding: 2px 7px;
+}
+
+.table-special tr {
+    background-color: rgb(255, 139, 139);
+}
+
+.table-special tr:hover {
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.table-stats caption {
+    margin: 3px;
+}
+
+.table-stats tr {
+    background-color: rgb(160, 255, 255);
+}
+
+.table-stats tr:hover {
+    background-color: rgba(255, 0, 0, 0);
+}
+
+/*Lista*/
+
+.material-icons-sharp {
+    line-height: 0px;
+    vertical-align: -6px;
+    color: #822116;
+}
+
+.lista ul {
+    list-style: none;
+}
+
+.lista ol {
+    list-style-position: inside;
+}
+
+.lista dd {
+    margin-left: 40px;
+}
+
+.lista dd::before {
+    background-image: url(imagens/next.png);
+    background-size: 16px;
+    background-position-y: center;
+    background-position-x: center;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    vertical-align: top;
+    content: "";
+}
+
+/*Iframe Wikipédia*/
+
+#iframe-wikipedia {
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.iframe-wiki a:link, .iframe-wiki a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.iframe-wiki p {
+    display: inline-block;
+    margin: .5em 1em;
+}
+
+/*Hora e data*/
+
+.div-relogio {
+    margin: 20px 0;
+}
+
+.div-relogio button {
+    background-color: #021323;
+    color: #2AE840;
+    padding: .5em .7em;
+    border: 2px outset rgb(117, 117, 117);
+    border-radius: 2px;
+}
+
+.div-relogio button:active {
+    border-style: inset;
+}
+
+/*Barra de navegação de páginas*/
+
+.page-nav {
+    margin: 0;
+    padding: 2em;
+    text-align: center;
+}
+
+.page-nav a:visited, .page-nav a:link {
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+}
+
+.page-current {
+    font-size: 1.3em;
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+
+.page-current, .page-select {
+    border: 1px solid rgb(85, 85, 85);
+    padding: .1em .5em;
+    vertical-align: middle;
+}
+
+.page-nav a:hover {
+    background-color: #203838;
+    color: white;
+}
+
+.page-nav a:active {
+    background-color: #001820;
+    color: white;
+}
+
+.page-title {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #333333;
+    padding: 5px;
+    color: white;
+    line-height: 0;
+}
+
+footer div {
+    max-width: 1024px;
+    margin: 0 auto;
+}

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Origem</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+    <link rel="stylesheet" href="origem.css">
+</head>
+
+<body>
+
+    <!--Página 3 com acréscimos e header-->
+    <div class="corpo">
+
+        <!--Menus-->
+        <header class="menu">
+            <ul>
+                <li><a href="#anchor-topo">Topo</a></li>
+                <li><a href="#anchor-lorem">Lorem Ipsum</a></li>
+                <li><a href="#anchor-video-rick">Vídeo</a></li>
+                <li><a href="#anchor-typhlo">Imagem</a></li>
+                <li><a href="#anchor-div">Div Decorada</a></li>
+                <li><a href="#anchor-formulas">Fórmulas</a></li>
+                <li><a href="#anchor-referencias">Referências</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="javascript:void(0)">Mais</a>
+                    <div class="drop-content">
+                        <ul>
+                            <li><a href="#anchor-pic-demo">Picture</a></li>
+                            <li><a href="#anchor-tabelas">Tabelas</a></li>
+                            <li><a href="#anchor-muda-texto">Não Aperte</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </header>
+
+        <div class="corpo-dentro">
+
+            <!--Título da página-->
+            <div id="topo">
+                <span id="anchor-topo"></span>
+                <h1>Projeto Origem</h1>
+                <p>Esse é o início do meu auto estudo em programação web.</p>
+                <p>E que comecem os testes...</p>
+            </div>
+
+            <div>
+                <h1>Cabeçalho &lt;h1&gt; (heading)</h1>
+                <h2>Cabeçalho &lt;h2&gt; (heading)</h2>
+                <h3>Cabeçalho &lt;h3&gt; (heading)</h3>
+                <h4>Cabeçalho &lt;h4&gt; (heading)</h4>
+                <h5>Cabeçalho &lt;h5&gt; (heading)</h5>
+                <h6>Cabeçalho &lt;h6&gt; (heading)</h6>
+                <p>E esse é o famigerado &lt;p&gt; parágrafo.</p>
+                <p>Vejamos como funciona o &lt;br&gt;.<br>Então? Viu a divisão? O espaço entre essas duas linha ficou
+                    menor que o normal.
+                </p>
+            </div>
+
+            <div id="lorem">
+                <span class="anchor" id="anchor-lorem"></span>
+                <h3>Um parágrafo modesto de Lorem ipsum:</h3>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper urna lectus, id
+                        interdum
+                        diam finibus non. Nullam ut erat ornare, vestibulum erat ut, viverra metus. Duis eget nunc
+                        consectetur, cursus leo lacinia, lobortis odio. In at magna a lorem lacinia vulputate. Fusce
+                        congue
+                        lectus nec semper fermentum. Mauris purus velit, viverra at eleifend convallis, congue sed odio.
+                        Nam
+                        posuere ante et felis hendrerit consectetur id vitae erat. Donec urna arcu, gravida et eleifend
+                        a,
+                        malesuada a velit. Cras vitae sapien quis ex consectetur faucibus. Vestibulum pharetra
+                        sollicitudin
+                        arcu vitae vestibulum. Phasellus iaculis lobortis fringilla. Nullam aliquam mauris et magna
+                        fermentum sodales. Nullam non erat et dui interdum malesuada.
+                    </p>
+                    <br>
+                    <p>
+                        Phasellus faucibus sapien placerat, lacinia libero vel, imperdiet mauris. Nam fermentum dui sed
+                        congue facilisis. Integer in dolor nulla. Donec tristique turpis eget quam vulputate
+                        sollicitudin.
+                        Etiam consequat quam vestibulum, aliquam lectus feugiat, accumsan metus. Praesent massa sem,
+                        facilisis nec fringilla et, volutpat hendrerit ipsum. Suspendisse quis est sit amet diam
+                        bibendum
+                        lacinia. Cras venenatis risus eu sapien ullamcorper maximus. Curabitur dapibus at neque eget
+                        rutrum.
+                        Integer at quam eu mi interdum blandit ac euismod velit. Aenean nec elit nec metus imperdiet
+                        vulputate. Curabitur sit amet urna ut lectus scelerisque euismod.
+                    </p>
+                </div>
+            </div>
+
+            <!--Vídeo do rick-->
+            <div id="video-rick">
+                <span class="anchor" id="anchor-video-rick"></span>
+                <h3>O link virou um vídeo:</h3>
+                <div>
+                    <video width="640" height="360" controls>
+                        <source src="videos/videoplayback.mp4" type="video/mp4">
+                        <source src="videos/Rick Astley - Never Gonna Give You Up (Official Music Video).webm"
+                            type="video/webm">
+                        O seu navegador não suporta esse vídeo
+                    </video>
+                </div>
+            </div>
+
+            <!--Imagem do Typhlosion-->
+            <div class="div-typhlo">
+                <span class="anchor" id="anchor-typhlo"></span>
+                <figure>
+                    <img id="imagem-typhlo" src="imagens/new typhlosion.png" alt="Typhlosion estiloso ouvindo música"
+                        height="300" width="300" usemap="#typhlosion-map">
+                    <figcaption>Img 1: Typholosion</figcaption>
+                </figure>
+                <map name="typhlosion-map">
+                    <area shape="circle" coords="150, 142, 150" href="https://i.imgur.com/OR1oqSM.jpeg" target="_blank">
+                    <area shape="poly" coords="300, 300, 300, 220, 220, 300"
+                        href="https://www.behance.net/tiagocostae18d" target="_blank">
+                </map>
+                <div class="typhlo-lado">
+                    <h2>Que tal um Typhlosion estiloso ouvindo música...</h2>
+                    <p title="heheheh">
+                        Não vamos esquecer desse efeito basico (acontece que você so precisa deixar o mouse
+                        parado
+                        em
+                        cima do texto, aiai).
+                    </p>
+                    <h4 style="font-size: 30px; margin-top: 0.2em; line-height: normal;">E aqui está um
+                        &lt;h4&gt;
+                        grandão e com
+                        0.2 vezes o tamanho da fonte atual como margem superior!</h4>
+                    <p>
+                        Dessa vez eu vou
+                        <hr>quebrar o parágrafo com um &lt;hr&gt;.
+                    </p>
+                </div>
+            </div>
+
+            <!--Poema-->
+            <div>
+                <h3>E o que raios é a tag &lt;pre&gt;?</h3>
+                <pre>
+            My Bonnie lies over the ocean.
+
+            My Bonnie lies over the sea.
+
+            My Bonnie lies over the ocean.
+
+            Oh, bring back my Bonnie to me.
+                </pre>
+            </div>
+
+            <!--Div decorada-->
+            <div id="div" class="div-demo">
+                <span class="anchor" id="anchor-div"></span>
+                <h3>E que venha as divs e seu estilos</h3>
+            </div>
+
+            <!--Fórmulas-->
+            <div>
+                <span class="anchor" id="anchor-formulas"></span>
+                <h3>Já chegou hora de estudar <em>fórmulas</em> e tags de estilos?</h3>
+                <div class="bhaskara-t">
+                    <p>&lt;sup&gt;:</p>
+                </div>
+                <div class="bhaskara">
+                    <p
+                        style="margin-bottom: 0; width: 9em; border-bottom-style: solid; border-width: 2px; border-color: black;">
+                        <em>- b &plusmn; &radic;( b <sup>2</sup> - 4 . a . c)</em>
+                    </p>
+                    <p style="margin-top: 0; width: 9em; text-align: center;"><i>2 . a</i></p>
+                </div>
+                <p>&lt;sub&gt;: <mark>E um pouco de H<sub>2</sub>O</mark> &lt;mark&gt;.</p>
+                <p>Um <del>errinho</del> &lt;del&gt; <span class="overline">acerto</span> com "overline" e "uppercase".
+                </p>
+                <p>Um <small>pequeno</small> &lt;small&gt; e um <ins>sublinhado</ins> &lt;ins&gt;.</p>
+                <p><b>Esse é o negrito &lt;b&gt;.</b></p>
+                <p><strong>Esse é o importante &lt;strong&gt;.</strong></p>
+            </div>
+
+            <!--Referências-->
+            <div>
+                <span class="anchor" id="anchor-referencias"></span>
+                <h3>Eu entendi essas referencias</h3>
+                <q>Citação: Eu vi na wikipédia que tomar leite com manga mata.</q>
+                <blockquote cite="https://pt.wikipedia.org/wiki/Discoth%C3%A8que_(can%C3%A7%C3%A3o)">
+                    Blockquote: "Discothèque" é uma canção gravada pela banda irlandesa U2 para seu nono álbum de
+                    estúdio, Pop(1997).
+                </blockquote>
+                <div>
+                    <p>
+                        Abreviação: <abbr class="spfc" tittle="Seu Pai Fabrica Cueca">SPFC</abbr>
+                        <span>Seu Pai Fabrica Cueca</span>
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <h4>Endereço:</h4>
+                <address>
+                    Euston Rd, London N1 9AL<br>
+                    United Kingdom<br>
+                    King's Cross Station, platform 9 ¾
+                </address>
+                <p>Muito pelo contrário: <bdo dir="rtl">Você é legal!</bdo></p>
+                <p class="invertido">Já para os Japoneses.</p>
+                <!--Huuuuuuummmmmmmmmmm, isso é um comentário só para avisar.-->
+            </div>
+
+            <!--Imagem de vários tamnhos (que deu errado, vou tentar depois)-->
+            <div>
+                <span class="anchor" id="anchor-pic-demo"></span>
+                <h3>Uma foto que não é só uma foto</h3>
+                <p>Ela muda dependendo do tamanho da tela. Bem útil para uma página responsiva.</p>
+                <picture>
+                    <source media="(min-width: 900px)" srcset="imagens/Mozilla_Firefox_logo_2013.svg.png"
+                        alt="Mozilla Firefox Logo" width="300px" height="300">
+                    <source media="(min-width: 450px)" srcset="imagens/103a9f0379f6f15ca92c6bd7e1422594.jpg"
+                        alt="Mozilla Firefox Logo" width="300px" height="300">
+                    <img src="imagens/maxresdefault.jpg" alt="Mozilla Firefox Logo" width="300px" height="300">
+                </picture>
+            </div>
+
+            <!--tabela-->
+            <div id="tabelas">
+                <span class="anchor" id="anchor-tabelas"></span>
+                <h3>Tabelas de umas estatísticas aleartótias:</h3>
+                <div class="coluna-lado">
+                    <table class="table-special">
+                        <tr>
+                            <td>S-Força</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>P-Percepção</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>E-Resitência</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>C-Carisma</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>I-Inteligência</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>A-Agilidade</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>L-Sorte</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td>42</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="coluna-lado">
+                    <table class="table-stats">
+                        <caption>Jerson</caption>
+                        <tr>
+                            <th colspan="2">Características</th>
+                        </tr>
+                        <tr>
+                            <td>Sequencia</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>Pontos de Ação</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td>Taxa de Habilidade</td>
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td>Dano Corpo a Corpo</td>
+                            <td>35</td>
+                        </tr>
+                        <tr>
+                            <td>Resistência a Rad</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <td>Limite de Carga</td>
+                            <td>150</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!--Listas-->
+            <div class="lista">
+                <h3>Listas, iei!!!</h3>
+                <div class="coluna-lado">
+                    <ul>
+                        <li><span class="material-icons-sharp">arrow_right</span>Faca</li>
+                        <li><span class="material-icons-sharp">arrow_right</span>Garfo</li>
+                        <li><span class="material-icons-sharp">arrow_right</span>Colher</li>
+                        <li><span class="material-icons-sharp">arrow_right</span>Prato</li>
+                    </ul>
+                </div>
+                <div class="coluna-lado">
+                    <ol type="I" start="5">
+                        <li>Farinha</li>
+                        <li>Fermento</li>
+                        <li>Ovo</li>
+                        <li>Leite</li>
+                    </ol>
+                </div>
+                <div class="coluna-lado">
+                    <dl>
+                        <dt>Correto</dt>
+                        <dd>Algo que está certo.</dd>
+                        <dt>Negativo</dt>
+                        <dd>Algo que está errado.</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <!--getElementBy Scripts-->
+            <div class="esconder">
+                <h3>Gosta de fígado?</h3>
+                <p>Então que tal escondelo: <button onclick="escondeTexto()">Esconder</button></p>
+            </div>
+            <div>
+                <span class="anchor" id="anchor-muda-texto"></span>
+                <h3 id="muda-texto">Não aperte esse botão abaixo que diz "Aperte aqui"!!!</h3>
+                <button onclick="mudaTexto()" id="muda-botao">Aperte aqui</button>
+            </div>
+
+            <!--Iframe de wikis-->
+            <div class="iframe-wiki">
+                <h3>Iframe das Wikis</h3>
+                <p>
+                    <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
+                        target="iframe-wikis">Wikipédia</a>
+                </p>
+                <p>
+                    <a href="https://desciclopedia.org/wiki/P%C3%A1gina_principal"
+                        target="iframe-wikis">Descinclopédia</a>
+                </p>
+                <p>
+                    <a href="https://pt.wikiversity.org/wiki/P%C3%A1gina_principal"
+                        target="iframe-wikis">Wikiversity</a>
+                </p>
+                <iframe src="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" name="iframe-wikis"
+                    id="iframe-wikipedia" title="Iframe Wikipédia"></iframe>
+            </div>
+
+            <!--Hora e Data-->
+            <div class="div-relogio">
+                <button type="button" onclick="document.getElementById('relogio').innerHTML = Date()">
+                    Ver hora e data</button>
+                <p id="relogio"></p>
+            </div>
+
+            <div class="glow">
+                <p>NEON! NEON! NEON!</p>
+            </div>
+
+            <!--Paginas de teste de layout-->
+            <div>
+                <h3>Testes de Layout</h3>
+                <p>
+                    <a href="layout1.html" target="_blank">Layout 1</a>
+                </p>
+            </div>
+            
+            <!--Navegação de páginas-->
+            <div>
+                <h3 class="page-title">E para completar, um índice de paginas melhorado:</h3>
+                <nav class="page-nav">
+                    <a class="page-select" href="main1_origem.html">1</a>
+                    <a class="page-select" href="main2_origem.html">2</a>
+                    <span class="page-current">3</span>
+                    <a class="page-select" href="main4_origem.html">4</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!--Rodapé-->
+    <footer>
+        <div>
+            <p>&copy; 2021 Forge Gabriel</p>
+        </div>
+    </footer>
+
+    <script>
+        function escondeTexto() {
+            var x = document.getElementsByClassName("esconder");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+        }
+        function mudaTexto() {
+            document.getElementById("muda-texto").innerHTML = "Nãããããããããããããããããooooooo!!!! Eu falei para não apertar!";
+            document.getElementById("muda-botao").innerHTML = "Porquuueeeeeeee???";
+            document.getElementById("muda-botao").style.color = "white";
+            document.getElementById("muda-botao").style.backgroundColor = "red";
+            document.getElementById("muda-botao").style.border = "2px solid black";
+            document.getElementById("muda-botao").style.borderRadius = "5px";
+            document.getElementById("muda-botao").style.fontSize = "1.2em";
+            document.getElementById("muda-botao").style.fontweight = "bold";
+        }
+    </script>
+</body>
+
+</html>
