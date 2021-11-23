@@ -8,8 +8,6 @@
     <style>
         body {
             margin: 0;
-            display: grid;
-            grid-template-columns: auto auto;
         }
 
         /*colors*/
@@ -19,19 +17,59 @@
         .div4 {
             background-color: rgb(0, 217, 255);
             min-height: 300px;
-            padding: 10px;
             margin: 10px;
         }
 
-        .div1 div,
-        .div2 div,
-        .div3 div,
-        .div4 div {
+        .div1>div,
+        .div2>div,
+        .div3>div,
+        .div4>div {
             background-color: rgb(111, 0, 255);
             font-size: xx-large;
             color: white;
-            padding: 30px;
+            padding: 20px;
             margin: 10px;
+            text-align: center;
+        }
+
+        .div1 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column-reverse;
+            align-items: flex-start;
+        }
+
+        .div2 {
+            display: flex;
+            flex-flow: collumn-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .div2>div {
+            width: 200px;
+            padding: 20px 5px;
+        }
+
+        .div2>.div2_3 {
+            flex-shrink: 0;
+        }
+
+        .div3 {
+            display: flex;
+            flex-flow: row;
+        }
+
+        .div3>div {
+            flex-grow: 1;
+        }
+
+        .div4 {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
@@ -42,24 +80,28 @@
         <div class="div1_1">1</div>
         <div class="div1_2">2</div>
         <div class="div1_3">3</div>
+        <div class="div1_4">4</div>
     </div>
 
     <div class="div2">
         <div class="div2_1">1</div>
         <div class="div2_2">2</div>
         <div class="div2_3">3</div>
+        <div class="div2_4">4</div>
     </div>
 
     <div class="div3">
         <div class="div3_1">1</div>
         <div class="div3_2">2</div>
         <div class="div3_3">3</div>
+        <div class="div3_4">4</div>
     </div>
 
     <div class="div4">
         <div class="div4_1">1</div>
         <div class="div4_2">2</div>
         <div class="div4_3">3</div>
+        <div class="div4_4">4</div>
     </div>
 
 </body>
