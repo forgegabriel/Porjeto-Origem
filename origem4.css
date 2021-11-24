@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Varela+Round&display=swap');
-body {
+:root {
     font-family: 'Noto Sans Display', sans-serif;
+    height: 100vh;
 }
 
 /*Menu lateral*/
